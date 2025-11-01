@@ -1,0 +1,25 @@
+{
+    "name": "chem",
+    "displayName": "chemscript",
+    "description": "chem作為一種多用途腳本語言",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.105.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "chemscript",
+            "aliases": ["Chemscript DSL", "chemscript"],
+            "extensions": [".chem"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "chemscript",
+            "scopeName": "source.chemscript",
+            "path": "./syntaxes/chemscript.tmLanguage.json"
+        }]
+    }
+}
