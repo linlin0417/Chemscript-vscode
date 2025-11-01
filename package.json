@@ -21,5 +21,14 @@
             "scopeName": "source.chemscript",
             "path": "./syntaxes/chemscript.tmLanguage.json"
         }]
-    }
+    },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/linlin0417/Chemscript-vscode.git"
+    },
+    "bugs": {
+    "url": "https://github.com/linlin0417/Chemscript-vscode/issues"
+    },
+
+    "homepage": "https://github.com/linlin0417/Chemscript-vscode#readme"
 }
