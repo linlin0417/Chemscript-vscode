@@ -1,6 +1,7 @@
 {
     "name": "chem",
     "displayName": "chemscript",
+    "publisher": "YmSaya-linlin",
     "description": "chem作為一種多用途腳本語言",
     "version": "0.0.1",
     "engines": {
